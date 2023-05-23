@@ -1,0 +1,378 @@
+@media screen and (min-width: 1367px){
+    header .main_header .faq_info{
+        display:none;
+    }
+    header .main_header .log_in{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1366px){
+    header .main_header .faq_info{
+        display:none;
+    }
+    header .main_header .log_in{
+        display: none;
+    }
+}
+@media screen and (max-width: 1199px){
+    .banner .offer{
+        right: 250px;
+    }
+    header .main_header .navbar .navbar-nav .nav-item .nav-link{
+        margin:0 5px;
+    }
+    .customer_story .story_content{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 991px){
+    h1{
+        font-size: 48px;
+        line-height: 50px;
+    }
+    h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    h4{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    header .mini_header .mini_info{
+        display: none;
+    }
+    header .mini_header{
+        justify-content: center;
+    }
+    header .mini_header .discount{
+        display: none;
+    }
+   header .main_header .navbar-brand{
+    display: none;
+   }
+   header .main_header .logo-header{
+    display: block;
+   }
+   header .main_header .faq_info {
+        display: block;
+        background-color: #FFEAEC;         
+    }
+    header .main_header .faq_info a{
+        color: #B73E4F; 
+    }
+    header .main_header .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    header .main_header .navbar-collapse{
+        height: 100vh;
+        text-align: left;
+        position: fixed;
+        width: 100%;
+        top:0;
+        left: 0;
+        background-color: #fff;
+        z-index: 2;
+    }
+    button.x-123{
+        display: block;
+        z-index: 99;
+        color: #000;
+        padding:10px;
+        background-color: #fff;
+        font-size:36px;
+    }
+    .signin_icon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .signin_icon .login{
+        margin:20px;
+    }
+    .signin_icon .login a{
+        margin:0 10px;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("../images/toggler-icon.svg");
+      }
+      .custom-toggler.navbar-toggler {
+        border:none;
+      } 
+      header .main_header .sign_in{
+        align-items: start;
+      }
+      header .main_header .sign_in li:nth-child(1),header .main_header .sign_in li:nth-child(4),header .main_header .sign_in li:nth-child(5){
+        display: none;
+      }
+      header .main_header .sign_in li:nth-child(2){
+        border-right:none;
+    }
+    header .main_header  ul{
+        padding-left: 0;
+    }
+    header .main_header .sign_in li {
+        padding: 4px 10px;
+    }
+    header .main_header .navbar-brand{
+        margin:0px 20px;
+    }
+    header .main_header .navbar .navbar-nav{
+        margin-bottom: auto;
+    }
+    header .main_header .navbar button:hover{
+        border:1px solid #fff ;
+    }
+    .banner{  
+    background-position: center;
+    }
+    .banner .banner_content .text{
+        display: none;
+    }
+    .banner .owl-carousel .owl-dots{
+        display: none;
+    }
+    .banner .offer{
+        bottom: 45px;
+        right: 212px;
+    }
+    .jewellery_category .jewellery_list{
+        display:none;
+    }
+    .category .jewel .jewel_image{
+        height:150px;
+    }
+    .hot_product .hot_product_image .outer_div{
+        margin: 0 0 30px 0;
+        padding:19px;
+    }
+    .hot_product .hot_product_image .outer_div .inner_div .gold_necklace{
+        margin:0;
+    }
+    .saving_scheme .saving_scheme_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .saving_scheme .saving_scheme_content .menu_jewellery{
+        text-align: center;
+    }
+    .saving_scheme .saving_content .benefit{
+        display: block;
+    }
+    .saving_scheme .saving_content ul>li{
+        width: 100%;
+    }
+    .hot_product .hot_product_image .outer_div .inner_div{
+        border: none;
+    }
+    .hot_product .hot_product_image .outer_div .inner_div .gold_kada .kada_content{
+        margin:10px 0;
+    }
+    .hot_product .hot_product_image .outer_div .inner_div .gold_necklace .necklace_content{
+        margin:10px 0;
+        
+    }
+    .customer_story{
+        padding:0 0 150px 0 ;
+    }
+    .customer_story .story_content{
+        text-align: center;
+        padding: 60px 0 30px 0;
+    }
+    .customer_story .outer_story .owl-carousel-story .owl-nav{
+        left: 212px;
+        bottom: -120px;
+    }
+    .footer_info .contact_info{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_info .contact .follow{
+        text-align: left;
+    }
+    .footer_info .contact .footer_icon{
+        justify-content: flex-start;
+    }
+    .footer_info .contact_info .contact{
+        order: 2;
+    }
+    .footer_info .contact .follow .payment{
+        margin: 0;
+    }
+    .footer_info .contact_info .contact .social_info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_info .information {
+        padding: 40px 0 30px 0;
+    }
+    .footer_info .contact{
+        padding: 30px 0 25px 0;
+    }
+    .footer_info .information ul{
+        padding-left: 0;
+    }
+    .footer_info .information .address{
+        padding: 0;
+    }
+     /*===========Start product list CSS ==========*/
+     .product_banner{
+        background-size: cover;
+     }
+     .filter .sorting .filter_section{
+        order:2;
+        display: flex;
+        flex-direction: row;
+    }
+    .filter .sorting .filter_section h6{
+        align-self: center;
+    }
+    .modify-toggler .navbar-toggler-icon {
+        background-image: url("../images/modify-toggler.svg");
+      }
+    .modify-toggler.navbar-toggler {
+    border:none;
+    background-color: #E7E7E7;
+    } 
+    .modify-toggler .navbar-toggler-icon:hover{
+    color: #B73E4F;
+    }
+    .sorted_list .filtered .filter_list{
+    flex-direction: column;
+    }
+      /*===========End product list CSS ==========*/
+    .policy_benefit h3{
+        margin-bottom: 30px;
+    }
+    .our_values .value_item {
+        margin-top: 30px;
+    }
+    .saving_banner{
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 767px){
+    
+    .banner .offer{
+        width: 100px;
+        height: 100px;
+        right: 100px;
+    }
+    .banner .offer p{
+        font-size:14px;
+    }
+    .category .jewel .jewel_image{
+        height:230px;
+    }
+    .saving_scheme .menu_jewellery{
+        padding: 30px;
+        margin:0;
+    }
+    .hot_product .hot_product_image .outer_div .inner_div .gold_kada{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .hot_product .hot_product_image .outer_div .inner_div .gold_kada .kada_content{
+        order:2;
+    } 
+    .hot_product .hot_product_image .outer_div .inner_div .gold_kada img{
+        max-width: 180px;
+    }
+    .hot_product .hot_product_image .outer_div .inner_div .gold_necklace img{
+        max-width:180px;
+    }
+    .hot_product .hot_product_image .outer_div .inner_div {
+        text-align: center;
+    }
+    .sophisticated_beauty .owl-carousel-product .item .gold_jewellery  img{
+        max-width:200px;
+        margin: 0 auto;
+    }
+    .customer_story .outer_story .story_image {
+        width: 348px;  
+    }
+    .customer_story .outer_story .owl-carousel-story .owl-nav{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+      /*===========Start description list CSS ==========*/
+      .detail{
+        margin-bottom:30px;
+    }
+    .our_values ul>li{
+        width:50%;
+     }
+     .our_values ul{
+        padding-left: 0;
+     }
+     .product-detail{
+        margin-bottom:30px;
+     }
+     h3{
+        line-height: 34px;
+     }
+    .policy_benefit .row:last-child{
+        margin-bottom: 0;
+    }
+    .policy_benefit .row:first-child{
+        margin-top: 20px;
+    }
+   
+    .detail .description .stock{
+        margin:30px 0 10px 0 ;
+    }
+    .product-detail{
+        margin-bottom: 12px;
+    }
+      /*===========End description list CSS ==========*/
+      /*===========Start saving scheme list CSS ==========*/
+      .jewellery_scheme .accordion .accordion-item .value_item{
+        display: block;
+      }
+      /*===========End saving scheme list CSS ==========*/
+}
+@media screen and (max-width: 575px){
+    
+    .banner .offer{
+        right: 5px;
+        width: 90px;
+        height: 90px;
+    }
+    .banner .offer p{
+        font-size: 12px;
+    }
+    .banner .offer span{
+        font-size: 25px;
+    }
+    
+    .banner .owl-carousel .owl-nav{
+        top: 420px;
+            right: 208px;
+    }
+    .saving_scheme .saving_scheme_content .saving_content .benefit{
+        flex-direction: column;
+    }
+    .saving_scheme .saving_scheme_content .saving_content{
+        padding: 30px;
+    }
+    .footer_info .contact .footer_icon .social_icon{
+        width:34px;
+        height:34px;
+    }
+    .our_values .value_item{
+        margin-top:30px;
+    }
+}
+@media screen and (max-width: 449px){
+    .ring_collection .row>*{
+        width: 100%;
+    }
+    .detail .description .diamond_quality a{
+        padding: 2px 10px;
+    }
+    .policy_benefit .card{
+        padding: 15px;
+    } 
+}
